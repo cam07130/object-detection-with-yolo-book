@@ -1,0 +1,9 @@
+# Change this path to the root directory of your dataset.
+path: /path/to/dataset
+train: images/train
+val: images/val
+
+# Replace these class names with the classes in your annotations.
+names:
+  0: class_a
+  1: class_b

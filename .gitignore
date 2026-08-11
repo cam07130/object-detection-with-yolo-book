@@ -1,0 +1,43 @@
+# OS and editors
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Ultralytics outputs
+runs/
+wandb/
+datasets/
+dataset/
+outputs/
+
+# Model and export artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.mlpackage
+*_openvino_model/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
