@@ -7,7 +7,7 @@
 本書のサンプルコードは、次の環境で動作を確認しています。
 
 - Python 3.12.13
-- Ultralytics 8.4.116
+- Ultralytics 8.4.216
 - PyTorch 2.11.0+cu128
 
 PyTorchの導入方法は、OS、GPU、CUDA環境によって異なります。GPUを利用する場合は、使用する環境に合ったPyTorchを先にインストールしてください。
